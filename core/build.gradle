@@ -17,7 +17,7 @@ publish {
     groupId = 'guru.stefma.androidartifacts'
     artifactId = rootProject.name
     uploadName = 'AndroidArtifacs'
-    version = project.version
+    publishVersion = project.version
     description = 'Super duper easy way to create artifacts of your Android and Java libraries'
     website = "https://github.com/StefMa/AndroidArtifacts"
 }

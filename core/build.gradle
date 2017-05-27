@@ -2,6 +2,8 @@ apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'groovy'
 apply plugin: 'maven'
 
+group = 'com.github.mobiledrc'
+
 dependencies {
     compile gradleApi()
     compile localGroovy()
@@ -14,8 +16,8 @@ compileGroovy {
 
 publish {
     userOrg = 'stefma'
-    groupId = 'guru.stefma.androidartifacts'
     artifactId = rootProject.name
+    groupId = project.group
     uploadName = 'AndroidArtifacs'
     version = project.version
     description = 'Super duper easy way to create artifacts of your Android and Java libraries'

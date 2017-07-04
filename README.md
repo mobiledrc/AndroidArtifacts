@@ -1,4 +1,4 @@
-# AndroidArtifacts
+# AndroidArtifacts [![](https://jitpack.io/v/mobiledrc/AndroidArtifacts.svg)](https://jitpack.io/#mobiledrc/AndroidArtifacts)
 
 A super easy way to create Android and Java artifacts.
 
